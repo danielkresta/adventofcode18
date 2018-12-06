@@ -1,0 +1,10 @@
+<div style="margin-top: 10px">
+    <button
+        (click)="showDayResult(day)">
+        Get solution for day {{day}}
+    </button>
+    <div *ngIf="solution != null">
+        <p><code>{{solution.firstPart}}</code></p>
+        <p><code>{{solution.secondPart}}</code></p>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+a:link, a:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+  
+a:hover, a:active {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation__link {
+    flex-direction: row;
+}

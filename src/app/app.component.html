@@ -1,0 +1,11 @@
+<h1>Advent of Code 2018</h1>
+<h2>Select a day:</h2>
+<div class="navigation">
+    <span class="navigation__link" *ngFor="let id of decemberDays" style="margin: 2px">
+        <nav>
+            <a routerLink="/day/{{id}}" *ngIf="id <= currentCompleted"> {{id}} </a>
+        </nav>
+    </span>
+</div>
+
+<router-outlet></router-outlet>
