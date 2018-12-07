@@ -1,6 +1,6 @@
 import { IDaySolution } from "../day-solution";
 
-export function dayOne( input:string ): IDaySolution {
+export function dayOne( input: string ): IDaySolution {
     const inputArray: number [] = input.split('\n').map(Number);
     const endFrequency = inputArray.reduce( ( total, current ) => total + current );
 

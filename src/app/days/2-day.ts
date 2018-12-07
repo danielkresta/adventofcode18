@@ -1,6 +1,6 @@
 import { IDaySolution } from "../day-solution";
 
-export function dayTwo( input:string ): IDaySolution {
+export function dayTwo( input: string ): IDaySolution {
     const letterAppearance: number[] = [0, 0, 0, 0];
     const inputArray = input.split('\n');
     let secondPart: string;
