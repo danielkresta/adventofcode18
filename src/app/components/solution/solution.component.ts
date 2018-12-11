@@ -4,7 +4,8 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { 
     dayOne, dayOneInput,
     dayTwo, dayTwoInput,
-    dayThree, dayThreeInput
+    dayThree, dayThreeInput,
+    dayFour, dayFourInput,
 } from "./../../days";
 import { IDaySolution } from 'src/app/day-solution';
 
@@ -41,6 +42,9 @@ export class SolutionComponent implements OnInit {
                 break;
             case 3:
                 this.solution = dayThree( dayThreeInput );
+                break;
+            case 4:
+                this.solution = dayFour( dayFourInput );
                 break;
         
             default:
