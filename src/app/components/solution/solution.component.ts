@@ -5,7 +5,7 @@ import {
     dayOne, dayOneInput,
     dayTwo, dayTwoInput,
     dayThree, dayThreeInput,
-    dayFour, dayFourInput,
+    dayFour, dayFourInput, dayFive, dayFiveInput,
 } from "./../../days";
 import { IDaySolution } from 'src/app/day-solution';
 
@@ -45,6 +45,9 @@ export class SolutionComponent implements OnInit {
                 break;
             case 4:
                 this.solution = dayFour( dayFourInput );
+                break;
+            case 5:
+                this.solution = dayFive( dayFiveInput );
                 break;
         
             default:

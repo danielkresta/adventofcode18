@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
     title = 'adventofcode18';
     decemberDays = Array.from({length: 25}, (v, k) => k + 1);
-    currentCompleted = 4;
+    currentCompleted = 5;
 }
